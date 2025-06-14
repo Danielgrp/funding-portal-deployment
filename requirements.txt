@@ -1,17 +1,6 @@
-<<<<<<< HEAD
-
-Flask==2.3.3
-Flask-SQLAlchemy==3.0.5
-Flask-CORS==4.0.0
-psycopg2-binary==2.9.7 # For PostgreSQL
-# python-dotenv==1.0.0 # Handled by venv usually, but good to list
-dotenv # Simpler alias for python-dotenv often used
-gunicorn==21.2.0 # For production
-=======
 Flask==2.3.3
 Flask-SQLAlchemy==3.0.5
 Flask-CORS==4.0.0
 psycopg2-binary==2.9.7
 python-dotenv
 gunicorn==21.2.0
->>>>>>> ff9a10e (Flattened project structure for Render deployment)
