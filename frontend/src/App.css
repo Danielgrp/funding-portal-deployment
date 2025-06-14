@@ -1,0 +1,21 @@
+
+/* Add any global custom styles here that are not covered by Tailwind utilities */
+/* For example, specific font imports or complex component styles */
+
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border-left-color: #6B46C1; /* brand-purple */
+  animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
