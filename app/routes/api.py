@@ -1,10 +1,12 @@
 from flask import Blueprint, jsonify, request
+from flask_cors import CORS  # ✅ Import CORS
 from app.models import FundingOpportunity, Organization, ResearchArea, Tag
 from app import db
 from sqlalchemy import or_, func
 from .sample_data import generate_sample_opportunities, get_sample_filters, populate_db_with_sample_data
 
 api_bp = Blueprint('api', __name__)
+CORS(api_bp, origins=["https://funding-portal-frontend.onrender.com"])  # ✅ Enable CORS for frontend
 
 @api_bp.route('/statistics', methods=['GET'])
 def get_statistics():

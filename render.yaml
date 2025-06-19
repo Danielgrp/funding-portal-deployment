@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: funding-portal-backend
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn run:app
+    runtime: python
+    region: oregon
+    plan: free
+    branch: main
+    autoDeploy: true
