@@ -1,9 +1,2 @@
-<<<<<<< HEAD
-python-3.10.8
+python-3.11.11
 
-
-=======
-python-3.10.8
-
-
->>>>>>> ff9a10e (Flattened project structure for Render deployment)
